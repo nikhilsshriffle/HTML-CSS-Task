@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="practice.css" />
+  <style>
+    .internal-css {
+      color: royalblue;
+    }
+    h1 {
+      background-color: gold;
+    }
+
+    a:link {
+      color: red;
+    }
+    
+    /* visited link */
+    a:visited {
+      color: green;
+    }
+    
+    /* mouse over link */
+    a:hover {
+      color: hotpink;
+    }
+    
+    /* selected link */
+    a:active {
+      color: blue;
+    }
+
+    .color-lists {
+      list-style: circle;
+    }
+
+    .img-container {
+      display: flex;
+      justify-content: space-evenly;
+    
+    }
+
+    .first-container {
+      display: grid;
+      border: 2px solid black;
+      padding: 15px;
+    }
+    .second-container {
+      display: grid;
+      border: 2px solid black;
+      padding: 15px;
+    }
+    .third-container {
+      display: grid;  
+      border: 2px solid black;
+    }
+  </style>
+</head>
+
+<body>
+  <div>
+    External Css
+    <h1>All Selectors</h1>
+    <span>Universal selector * used </span>
+    <div id="id">id selector denote #</div>
+    <div class="class">class selector denote .</div>
+    <h4>Direactly specify the h4 tag in css</h4>
+
+    <h3>Grouped selector : we can write css for multiple tags and Elements in some grid</h3>
+    <h5>Grouped selector</h5>
+    <h6>Grouped selector</h6>
+  </div>
+  <div class="internal-css">Internal Css</div>
+  <div style="text-align:center">inline Css</div>
+
+
+  <h1 style="background-color:DodgerBlue; color:white">Hello World</h1>
+  <p style="background-color:Tomato;">Lorem ipsum...</p>
+
+  <a href="https://www.w3schools.com/css/css_link.asp">Learn Links in css</a>
+
+  <ul class="color-lists">
+    <li>red</li>
+    <li>green</li>
+    <li>blue</li>
+    <li>black</li>
+  </ul>
+
+  <h1>Display Property</h1>
+  <div class="img-container">
+    <div class="first-container">
+      <span>display:none</span>
+      <img src="/home/rails/Nikhil/Solanki/react/gettyimages-1295925715-612x612.jpg" width="100" alt="Image not found"/>
+      <button onclick="handleremove()">Remove</button>
+    </div>
+    <div class="second-container">
+      <span>Hide All</span>
+      <img src="/home/rails/Nikhil/Solanki/react/pexels-pixabay-268533.jpg" width="100" alt="Image not found"/>
+      <button onclick="handleAll()">Hide all </button>
+    </div>
+    <div class="third-container">
+      <span>Reset</span>
+      <img src="/home/rails/Nikhil/Solanki/react/tree-736885__480.jpg" width="100" alt="Image not found"/>
+      <button onclick="handleReset()" >Reset all</button>
+    </div>
+  </div>
+
+      
+  <script>
+    function handleremove() {
+      document.querySelector('.first-container').style.display = 'none';
+    }
+    
+    function handleAll() {
+      document.querySelector('.first-container').style.display = 'none';
+      document.querySelector('.second-container').style.display = 'none';
+    }
+
+    function handleReset() {
+      document.querySelector('.first-container').style.display = 'grid';
+      document.querySelector('.second-container').style.display = 'grid'
+    } 
+  </script>
+</body> 
+</html>
