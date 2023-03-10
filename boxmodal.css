@@ -1,0 +1,33 @@
+.outer-container {
+  display: inline-block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 50%;
+    height:50%;
+    margin: auto;
+    background-color: rgb(198, 153, 41);
+    border: 2px solid ;
+    color: rgb(78, 132, 46);
+}
+
+.inner-container {
+  margin: 20px;
+  background-color: aqua;
+  border: 2px solid ;
+  width:50%;
+  height: 20%;
+  padding:20px;
+  outline: #4CAF50 solid 10px;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: uppercase; 
+  letter-spacing:2px;
+  text-shadow: 1px 1px rgb(0, 85, 255);
+  font-family: 'Times New Roman';
+  font-style: italic;
+  font-weight: normal;
+  font-size: 10px;;
+}

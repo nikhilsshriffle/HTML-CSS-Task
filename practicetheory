@@ -1,0 +1,32 @@
+what is difference between Html and Html5 ?
+Html
+1 Less Mobile Friendly
+2 Its Work For old browsers
+3 nav header are not present
+4 Not Possible to draw the circle ractriangle 
+5 It is almost impossible to get true geolocation of user with help
+6 Slower
+
+Html5
+1 More Mobile Friendly
+2 Its Work for new browsers
+3 nav header are present
+4 Possible to draw the circle ractriangle
+5 One can track the GeoLocation of a user easily by using JS GeoLocation API. 
+6 Faster
+
+basic tags 
+1 div : Block level tag
+2 h1-h6 : heading tag
+3 Links tag
+
+
+
+position : 
+Static :- In position of static it is static postion  we can not use  margin or padding 
+
+R elative :- In this Position of set to element in anywhere 
+
+Fixed :- Fixed postion  if we try to scroll page the postion is fixed 
+
+Absolute :- Absolute position is relative to another element , if scroll page postion is not changed
