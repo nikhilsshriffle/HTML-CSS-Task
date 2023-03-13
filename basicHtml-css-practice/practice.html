@@ -14,7 +14,7 @@
     h1 {
       background-color: gold;
     }
-
+    
     a:link {
       color: red;
     }
@@ -80,8 +80,11 @@
 
   <h1 style="background-color:DodgerBlue; color:white">Hello World</h1>
   <p style="background-color:Tomato;">Lorem ipsum...</p>
+<span  style="text-shadow:2px 0.1px">Hello Welcome</span>
 
-  <a style="text-decoration: none;" href="https://www.w3schools.com/css/css_link.asp">Learn Links in css</a>
+  <a style="text-decoration: none; cursor:alias" href="https://www.w3schools.com/css/css_link.asp">Learn Links in css</a>
+
+  <p id = "borderimg1">This is image boarder example.</p>
 
   <ul class="color-lists">
     <li>red</li>
@@ -94,17 +97,17 @@
   <div class="img-container">
     <div class="first-container">
       <span>display:none</span>
-      <img src="/home/rails/Nikhil/Solanki/react/gettyimages-1295925715-612x612.jpg" width="100" alt="Image not found"/>
+      <img src="/Images/gettyimages-1295925715-612x612.jpg" width="100" alt="Image not found"/>
       <button onclick="handleremove()">Remove</button>
     </div>
     <div class="second-container">
       <span>Hide All</span>
-      <img src="/home/rails/Nikhil/Solanki/react/pexels-pixabay-268533.jpg" width="100" alt="Image not found"/>
+      <img src="/Images/home/rails/Nikhil/Solanki/react/pexels-pixabay-268533.jpg" width="100" alt="Image not found"/>
       <button onclick="handleAll()">Hide all </button>
     </div>
     <div class="third-container">
       <span>Reset</span>
-      <img src="/home/rails/Nikhil/Solanki/react/tree-736885__480.jpg" width="100" alt="Image not found"/>
+      <img src="/Images/home/rails/Nikhil/Solanki/react/tree-736885__480.jpg" width="100" alt="Image not found"/>
       <button onclick="handleReset()" >Reset all</button>
     </div>
   </div>
@@ -114,8 +117,10 @@
   </div>
 
   <!-- <div class="a"> -->
-    <p style="position: absolute;">outer Elements</p>
-    <img style="z-index: -  1"  src="/home/rails/Nikhil/Solanki/HTMLCSS/gettyimages-1295925715-612x612.jpg    " alt="image not found"/>
+    <div>
+      <p>outer Elements</p>
+      <img style="position: absolute; z-index: -1"  src="/Images/HTMLCSS/download.png" alt="image not found"/>
+    </div>
 <!-- </div> -->
   <script>
     function handleremove() {

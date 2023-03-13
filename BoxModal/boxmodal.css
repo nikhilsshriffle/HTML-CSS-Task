@@ -1,5 +1,5 @@
 .outer-container {
-  display: inline-block;
+    display: inline-block;
     position: fixed;
     top: 0;
     bottom: 0;
@@ -22,6 +22,7 @@
   padding:20px;
   outline: #4CAF50 solid 10px;
   text-align: center;
+  line-height: 10px ;
   text-decoration: underline;
   text-transform: uppercase; 
   letter-spacing:2px;

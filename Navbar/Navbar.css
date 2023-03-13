@@ -1,0 +1,27 @@
+  .Navbar-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+  }
+
+  .Navbar-logo {
+    margin: 25px;
+  }
+
+  .Navbar-Links ul li {
+    list-style: none;
+    display: inline;
+    margin: 25px;
+  }
+
+  .Navbar-Links {
+    margin: 25px;
+  }
+
+  @media (max-width:600px) {
+    .Navbar-container {
+      background-color: rgb(130, 30, 30);
+      color: white;
+    }
+  }

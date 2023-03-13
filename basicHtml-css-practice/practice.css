@@ -45,5 +45,14 @@ h1 {
   border: 2px solid red;
 }
 
+#borderimg1 { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image-source: url('tree-736885__480.jpg');
+  border-image-repeat: round;
+  border-image-slice: 10;
+  border-image-width: 10px;
+}
+
 
     

@@ -24,9 +24,8 @@ basic tags
 
 position : 
 Static :- In position of static it is static postion  we can not use  margin or padding 
-
-R elative :- In this Position of set to element in anywhere 
-
+Relative :- In this Position of set to element in anywhere 
 Fixed :- Fixed postion  if we try to scroll page the postion is fixed 
-
 Absolute :- Absolute position is relative to another element , if scroll page postion is not changed
+
+How to apply google fonts 
