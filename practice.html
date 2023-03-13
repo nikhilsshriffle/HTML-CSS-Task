@@ -81,7 +81,7 @@
   <h1 style="background-color:DodgerBlue; color:white">Hello World</h1>
   <p style="background-color:Tomato;">Lorem ipsum...</p>
 
-  <a href="https://www.w3schools.com/css/css_link.asp">Learn Links in css</a>
+  <a style="text-decoration: none;" href="https://www.w3schools.com/css/css_link.asp">Learn Links in css</a>
 
   <ul class="color-lists">
     <li>red</li>
@@ -108,8 +108,15 @@
       <button onclick="handleReset()" >Reset all</button>
     </div>
   </div>
+   
+  <div class="outer">
+    <div class="inner">test</div>
+  </div>
 
-      
+  <!-- <div class="a"> -->
+    <p style="position: absolute;">outer Elements</p>
+    <img style="z-index: -  1"  src="/home/rails/Nikhil/Solanki/HTMLCSS/gettyimages-1295925715-612x612.jpg    " alt="image not found"/>
+<!-- </div> -->
   <script>
     function handleremove() {
       document.querySelector('.first-container').style.display = 'none';

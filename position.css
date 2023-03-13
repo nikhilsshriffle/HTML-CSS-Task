@@ -32,9 +32,9 @@
 .outer-container {
   position: relative;
   border: 2px solid rgb(179, 38, 38);
-  width :100%;
+  width :90%;
   height: 200px;
-  margin:50px;
+  margin:10px;
   top:50px;
 }
 
@@ -43,5 +43,6 @@
   border: 3px solid black;
   top:50px;
   bottom:50px;
-  left:50px;
+  /* left:50px; */
+  right:50px;
 }
